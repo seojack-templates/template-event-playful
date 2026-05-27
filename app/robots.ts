@@ -3,6 +3,6 @@ import type { MetadataRoute } from 'next';
 export default function robots(): MetadataRoute.Robots {
     return {
         rules: { userAgent: '*', allow: '/' },
-        sitemap: 'https://event-playful.templates.seojack.website/sitemap.xml',
+        sitemap: 'https://template-event-playful.seojack.site/sitemap.xml',
     };
 }
